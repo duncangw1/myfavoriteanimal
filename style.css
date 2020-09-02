@@ -1,25 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: tan;
 }
 
-h1 {
+.header {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: tan;
+    text-align: center;
+    padding: 20px;
+    background-color: darkslategray;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 3px solid black;
+}
+
+.header h1 {
     font-size: 28px;
-    color: darkslategray;
+}
+
+#animals {
+    color: yellowgreen;
 }
 
 img {
+    display: block;
     margin: 0 auto;
     width: 50%;
     border: 3px solid darkslategray;
     padding: 10px;
 }
 
-h2 {
-    font-size: 18px;
+.list {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkslategray;
+    color: tan;
+    padding: 20px;
+    width: 50%;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 3px solid black;
+    float: left;
+}
+
+.list h2 {
+    font-size: 22px;
+    text-align: center;
+    background-color: tan;
+    color: darkslategray;
+    padding: 5px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#like {
+    color: darkred;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkslategray;
+    color: tan;
+    padding: 20px;
+    width: 50%;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 3px solid black;
+    float: left;
+}
+
+.text h2 {
+    font-size: 22px;
+    text-align: center;
+    background-color: tan;
+    color: darkslategray;
+    padding: 5px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#about {
+    color: darkblue;
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
     color: darkslategray;
 }
 
-ul {
-    color: black;
+#github {
+    color: blue;
 }

@@ -1,0 +1,25 @@
+body {
+    background-color: tan;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    color: darkslategray;
+}
+
+img {
+    margin: 0 auto;
+    width: 50%;
+    border: 3px solid darkslategray;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    color: darkslategray;
+}
+
+ul {
+    color: black;
+}
